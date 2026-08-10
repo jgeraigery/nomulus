@@ -51,7 +51,7 @@ plugins {
   id 'com.diffplug.spotless' version '6.20.0'
 
   id 'jacoco'
-  id 'com.dorongold.task-tree' version '2.1.0'
+  id 'com.dorongold.task-tree' version '4.0.2'
 }
 
 dependencyLocking {
