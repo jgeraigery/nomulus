@@ -21,7 +21,7 @@
 # 5. Docker to build and push images.
 # 6. deployerForSchedulerAndTasks for deploying cloud scheduler and cloud tasks
 
-FROM golang:1.19 as deployCloudSchedulerAndQueueBuilder
+FROM golang:1.27 as deployCloudSchedulerAndQueueBuilder
 WORKDIR /usr/src/deployCloudSchedulerAndQueue
 COPY deployCloudSchedulerAndQueue.go ./
 COPY go.sum ./
